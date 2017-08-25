@@ -15,7 +15,10 @@ A combination of hardware and software to provide universal sharing of audio str
 * Media server
 * Android devices via Bluetooth
 * Microphone
+* Automatic notifications
 
 ## 1.3. Configuration
 * Each input has default output; this is the speaker in the room the input located in
 * When output is not producing sound it should shut down the speaker; relay can be used for this
+* If the user is moving from one room to another, the output should switch automatically
+* Headphones should not be connected to the system
